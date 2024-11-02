@@ -1,19 +1,21 @@
 ---
-# Taken from https://github.com/endymion1818/deliciousreverie/blob/master/src/pages/post/advanced-custom-fields-bootstrap-tabs.md
 categories:
-- development
-date: "2015-06-02T15:21:21+01:00"
-description: I'm not a huge fan of Advanced Custom Fields, but there was a requirement
-  to use it in a recent project that had Bootstrap as a basis for the UI. The challenge
-  for me was to get Bootstrap `nav-tabs` to play nice with an ACF repeater field.
+  - development
+date: '2015-06-02T15:21:21+01:00'
 draft: false
 tags:
-- wordpress
-- advanced custom fields
+  - wordpress
+  - advanced custom fields
 title: Advanced Custom Fields and Bootstrap Tabs
+description: >-
+  I'm not a huge fan of Advanced Custom Fields, but there was a requirement to
+  use it in a recent project that had Bootstrap as a basis for the UI. The
+  challenge for me was to get Bootstrap `nav-tabs` t
 ---
 
-**I'm not a huge fan of Advanced Custom Fields, but there was a requirement to use it in a recent project that had Bootstrap as a basis for the UI. The challenge for me was to get Bootstrap [nav-tabs](http://getbootstrap.com/components/#nav-tabs "Bootstrap nav-tabs component") to play nice with an [ACF repeater field](http://www.advancedcustomfields.com/resources/querying-the-database-for-repeater-sub-field-values/ "Repeater sub-field on Advanced Custom Fields website").**
+# Advanced Custom Fields and Bootstrap Tabs
+
+**I'm not a huge fan of Advanced Custom Fields, but there was a requirement to use it in a recent project that had Bootstrap as a basis for the UI. The challenge for me was to get Bootstrap** [**nav-tabs**](http://getbootstrap.com/components/#nav-tabs) **to play nice with an** [**ACF repeater field**](http://www.advancedcustomfields.com/resources/querying-the-database-for-repeater-sub-field-values/)**.**
 
 I started with the basic HTML markup for Bootstrap's Nav Tabs:
 
@@ -35,6 +37,7 @@ I started with the basic HTML markup for Bootstrap's Nav Tabs:
 </div>
 </div>
 ```
+
 In the Field Groups settings, I created a Repeater (this is a paid-for add on to the standard Advanced Custom Fields) called "tab Panes", with 2 sub-fields, "Tab Title" and "Tab Contents".
 
 ```php
@@ -78,7 +81,7 @@ The PHP above displays the tabs. The code below, very similarly, displays the ta
 
 By looping through the same repeater, we can get all the tabs out of the database, no problem. But we still have two problems: 1) linking the tab to the pane 2) Assigning the class of "active" so the Javascript is able to add and remove the CSS to reveal / hide the appropriate pane.
 
-### 1) Linking to the Pane
+#### 1) Linking to the Pane
 
 There are a number of ways to do this. I could ask the user to input a number to uniquely identify the tab pane. But that would add extra work to the users flow, and they might easily find themselves out of their depth. I want to make this as easy as possible for the user.
 
@@ -88,7 +91,7 @@ On the other hand, Wordpress has a very useful function called Sanitize HTML, wh
 <a href="#<?php echo sanitize_html_class( the_sub_field( 'tab_title' ) ); ?>"
 ```
 
-### 2) Assigning the 'Active' Class
+#### 2) Assigning the 'Active' Class
 
 So now we need to get a class of 'active' _only on_ the first tab. The Bootstrap Javascript will do the rest for us. How do we do that?
 
@@ -112,6 +115,4 @@ The final thing to do, is to keep the counter running, but adding this just befo
 
 Once you've added these to the tab panes in a similar way, you'll be up and running with Bootstrap Tabs.
 
-Below is a Github Gist, with the complete code for reference. [Link to this (if you can't see the iFrame)](https://gist.github.com/endymion1818/478d86025f41c8060888 "Github GIST for Advanced Custom Fields bootstrap tabs").
-
-<script src="https://gist.github.com/endymion1818/478d86025f41c8060888.js"></script>
+Below is a Github Gist, with the complete code for reference. [Link to this (if you can't see the iFrame)](https://gist.github.com/endymion1818/478d86025f41c8060888).
