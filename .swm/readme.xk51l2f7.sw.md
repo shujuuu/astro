@@ -1,19 +1,15 @@
 ---
 title: README
 ---
+&nbsp;
+
 ![Build the web you want](/.github/assets/banner.jpg "Build the web you want")
 
-<p align="center">&nbsp;\
+\
 &nbsp;<a href="<https://astro.build>">Astro</a> is a website build tool for the modern web —&nbsp;\
 &nbsp;powerful developer experience meets lightweight output.&nbsp;\
 \
-&nbsp;</p>
-
-<div align="center">
-
-![Build Status](https://github.com/withastro/astro/actions/workflows/ci.yml/badge.svg) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/withastro/astro/blob/main/LICENSE) [![npm version](https://badge.fury.io/js/astro.svg)](https://badge.fury.io/js/astro)
-
-</div>
+&nbsp;[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/withastro/astro/blob/main/LICENSE) [![npm version](https://badge.fury.io/js/astro.svg)](https://badge.fury.io/js/astro)
 
 ## Install
 
@@ -112,5 +108,38 @@ graph TD
 ---
 
 Please contact <SwmMention uid="7uPWv">[John In](mailto:usertest.swimm@proton.me)</SwmMention> & <SwmMention uid="sLEtk">[Shu-Ju Lin](mailto:shuju@swimm.io)</SwmMention> for other integration request.
+
+<SwmSnippet path="/package.json" line="4" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1">
+
+---
+
+To all maintainers, make sure to bump up the patch <SwmToken path="/package.json" pos="4:2:2" line-data="  &quot;version&quot;: &quot;0.0.0&quot;," repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`version`</SwmToken> on every release.
+
+```json
+  "version": "0.0.0",
+```
+
+---
+
+</SwmSnippet>
+
+<SwmSnippet path="/src/sistNovo.cbl" line="18" repo-id="Z2l0aHViJTNBJTNBa2VsbG8lM0ElM0Fzd2ltbWlv">
+
+---
+
+Please refer to <SwmLink doc-title="Overview of COP104 Flow" repo-id="Z2l0aHViJTNBJTNBa2VsbG8lM0ElM0Fzd2ltbWlv" repo-name="kello" path="/.swm/overview-of-cop104-flow.0260kbeb.sw.md">[Overview of COP104 Flow](https://app.swimm.io/repos/Z2l0aHViJTNBJTNBa2VsbG8lM0ElM0Fzd2ltbWlv/docs/0260kbeb)</SwmLink> on kello repo for more information on how to incorporate with old system.
+
+```cobol
+           SELECT COBFIRE ASSIGN TO "c:\COBOL\TOOLS\COBFIRE.DLL"
+                  ORGANIZATION IS LINE SEQUENTIAL
+                  ACCESS MODE IS SEQUENTIAL.
+
+           SELECT RESPONSE ASSIGN TO ARQUIVO-RESPONSE
+                  ORGANIZATION  IS LINE SEQUENTIAL.
+```
+
+---
+
+</SwmSnippet>
 
 <SwmMeta version="3.0.0"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
