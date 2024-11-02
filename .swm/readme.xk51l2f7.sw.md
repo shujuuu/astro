@@ -96,9 +96,7 @@ Astro is free, open source software made possible by these wonderful sponsors.
 [![Astro's sponsors.](https://astro.build/sponsors.png "Astro's sponsors.
 Platinum sponsors: Vercel, storyblok, Netlify, Ship Shape, Google Chrome
 Gold sponsors: ‹div›RIOTS, DEEPGRAM, Transloadit, CloudCannon
-Sponsors: Monogram, Qoddi, Dimension")](https://github.com/sponsors/withastro)
-
-Boilerplate integration functions can be found by importing <SwmToken path="/packages/integrations/partytown/src/index.ts" pos="12:4:4" line-data="export type PartytownOptions = {" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`PartytownOptions`</SwmToken>, <SwmToken path="/packages/integrations/tailwind/src/index.ts" pos="56:2:2" line-data="type TailwindOptions = {" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`TailwindOptions`</SwmToken>, <SwmToken path="/packages/integrations/mdx/src/index.ts" pos="20:4:4" line-data="export type MdxOptions = Omit&lt;typeof markdownConfigDefaults, &#39;remarkPlugins&#39; | &#39;rehypePlugins&#39;&gt; &amp; {" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`MdxOptions`</SwmToken>, etc.
+Sponsors: Monogram, Qoddi, Dimension")](https://github.com/sponsors/withastro)Boilerplate integration functions can be found by importing <SwmToken path="/packages/integrations/partytown/src/index.ts" pos="12:4:4" line-data="export type PartytownOptions = {" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`PartytownOptions`</SwmToken>, <SwmToken path="/packages/integrations/tailwind/src/index.ts" pos="56:2:2" line-data="type TailwindOptions = {" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`TailwindOptions`</SwmToken>, <SwmToken path="/packages/integrations/mdx/src/index.ts" pos="20:4:4" line-data="export type MdxOptions = Omit&lt;typeof markdownConfigDefaults, &#39;remarkPlugins&#39; | &#39;rehypePlugins&#39;&gt; &amp; {" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`MdxOptions`</SwmToken>, etc.
 
 ```mermaid
 graph TD
@@ -115,6 +113,18 @@ graph TD
 
 Please contact <SwmMention uid="7uPWv">[John In](mailto:usertest.swimm@proton.me)</SwmMention> & <SwmMention uid="sLEtk">[Shu-Ju Lin](mailto:shuju@swimm.io)</SwmMention> for other integration request.
 
-&nbsp;
+<SwmSnippet path="/package.json" line="4" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1">
+
+---
+
+To all maintainers, make sure to bump up the patch <SwmToken path="/package.json" pos="4:2:2" line-data="  &quot;version&quot;: &quot;0.0.0&quot;," repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`version`</SwmToken> on every release.
+
+```json
+  "version": "0.0.0",
+```
+
+---
+
+</SwmSnippet>
 
 <SwmMeta version="3.0.0"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
