@@ -113,18 +113,4 @@ graph TD
 
 Please contact <SwmMention uid="7uPWv">[John In](mailto:usertest.swimm@proton.me)</SwmMention> & <SwmMention uid="sLEtk">[Shu-Ju Lin](mailto:shuju@swimm.io)</SwmMention> for other integration request.
 
-<SwmSnippet path="/package.json" line="4" repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1">
-
----
-
-To all maintainers, make sure to bump up the patch <SwmToken path="/package.json" pos="4:2:2" line-data="  &quot;version&quot;: &quot;0.0.0&quot;," repo-id="Z2l0aHViJTNBJTNBYXN0cm8lM0ElM0FzaHVqdXV1" repo-name="astro">`version`</SwmToken> on every release.
-
-```json
-  "version": "0.0.0",
-```
-
----
-
-</SwmSnippet>
-
 <SwmMeta version="3.0.0"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
