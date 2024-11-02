@@ -1,0 +1,2 @@
+# ssr-split-manifest
+
