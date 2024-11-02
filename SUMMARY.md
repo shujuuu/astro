@@ -13,7 +13,6 @@
 * [.github](.github/README.md)
   * [PULL\_REQUEST\_TEMPLATE](.github/PULL\_REQUEST\_TEMPLATE.md)
 * [.swm](.swm/README.md)
-  * [Login](.swm/login.3dfy7vvo.sw.md)
   * [overview](.swm/overview.teah1t4b.sw.md)
   * [Untitled doc](.swm/untitled-doc.x8f519yb.sw.md)
   * [README](.swm/readme.xk51l2f7.sw.md)
@@ -441,3 +440,4 @@
   * [markdown](packages/markdown/README.md)
     * [remark](packages/markdown/remark/README.md)
       * [@astrojs/markdown-remark](packages/markdown/remark/CHANGELOG.md)
+* [Login](login.3dfy7vvo.sw.md)
